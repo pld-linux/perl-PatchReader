@@ -35,7 +35,6 @@ obiektów czytaj±cych, modyfikuj±cych i zwracaj±cych informacje o
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
