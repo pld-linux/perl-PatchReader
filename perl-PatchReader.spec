@@ -4,14 +4,14 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pnam    PatchReader
-Summary:	Utilities to read and manipulate patches and CVS
-Summary(pl):	Narzêdzia do czytania i manipulowania ³atami i CVS
+Summary:	PatchReader - utilities to read and manipulate patches and CVS
+Summary(pl):	PatchReader - narzêdzia do czytania i manipulowania ³atami i CVS
 Name:		perl-%{pnam}
 Version:	0.9.2
 Release:	0.1
 License:	unknown
 Group:		Development/Languages/Perl
-Source0:	http://search.cpan.org/CPAN/authors/id/J/JK/JKEISER/%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-authors/id/J/JK/JKEISER/%{pnam}-%{version}.tar.gz
 # Source0-md5:	c0d48aa7025426ac4da04edcccccd8b0
 URL:		http://search.cpan.org/~jkeiser/PatchReader-0.9.2/
 BuildRequires:	perl-devel >= 1:5.8.0
