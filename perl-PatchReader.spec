@@ -3,7 +3,7 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pnam    PatchReader
+%define	pnam	PatchReader
 Summary:	PatchReader - utilities to read and manipulate patches and CVS
 Summary(pl):	PatchReader - narzêdzia do czytania i manipulowania ³atami i CVS
 Name:		perl-%{pnam}
