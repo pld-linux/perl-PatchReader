@@ -3,15 +3,15 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pnam	PatchReader
+%define	pdir	PatchReader
 Summary:	PatchReader - utilities to read and manipulate patches and CVS
 Summary(pl):	PatchReader - narzêdzia do czytania i manipulowania ³atami i CVS
-Name:		perl-%{pnam}
+Name:		perl-PatchReader
 Version:	0.9.2
 Release:	0.1
 License:	unknown
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/J/JK/JKEISER/%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-authors/id/J/JK/JKEISER/%{pdir}-%{version}.tar.gz
 # Source0-md5:	c0d48aa7025426ac4da04edcccccd8b0
 URL:		http://search.cpan.org/~jkeiser/PatchReader-0.9.2/
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -30,7 +30,7 @@ obiektów czytaj±cych, modyfikuj±cych i zwracaj±cych informacje o
 ³atach.
 
 %prep
-%setup -q -n %{pnam}-%{version}
+%setup -q -n %{pdir}-%{version}
 
 %build
 %{__perl} Makefile.PL \
