@@ -11,7 +11,7 @@ Version:	0.9.2
 Release:	0.1
 License:	unknow
 Group:		Development/Languages/Perl
-Source0:	http://search.cpan.org/author/JKEISER/%{pnam}-%{version}.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/J/JK/JKEISER/%{pnam}-%{version}.tar.gz
 # Source0-md5:	c0d48aa7025426ac4da04edcccccd8b0
 URL:		http://search.cpan.org/~jkeiser/PatchReader-0.9.2/
 BuildRequires:	perl-devel >= 1:5.8.0
