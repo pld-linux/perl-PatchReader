@@ -7,12 +7,12 @@
 Summary:	PatchReader - utilities to read and manipulate patches and CVS
 Summary(pl):	PatchReader - narzêdzia do czytania i manipulowania ³atami i CVS
 Name:		perl-PatchReader
-Version:	0.9.4
+Version:	0.9.5
 Release:	0.1
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/J/JK/JKEISER/%{pdir}-%{version}.tar.gz
-# Source0-md5:	b579a2239a369f6e9a7fc34825f25a77
+# Source0-md5:	8aca86b807aec3c82dcb981c7730f022
 URL:		http://search.cpan.org/~jkeiser/PatchReader-0.9.2/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
