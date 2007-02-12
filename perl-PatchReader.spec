@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	PatchReader
 Summary:	PatchReader - utilities to read and manipulate patches and CVS
-Summary(pl):	PatchReader - narzêdzia do czytania i manipulowania ³atami i CVS
+Summary(pl.UTF-8):   PatchReader - narzÄ™dzia do czytania i manipulowania Å‚atami i CVS
 Name:		perl-PatchReader
 Version:	0.9.5
 Release:	1
@@ -24,10 +24,10 @@ This Perl library allows you to manipulate patches programmatically by
 chaining together a variety of objects that read, manipulate, and
 output patch information.
 
-%description -l pl
-Ten modu³ Perla pozwala programowo manipulowaæ ³atami poprzez ³±czenie
-obiektów czytaj±cych, modyfikuj±cych i zwracaj±cych informacje o
-³atach.
+%description -l pl.UTF-8
+Ten moduÅ‚ Perla pozwala programowo manipulowaÄ‡ Å‚atami poprzez Å‚Ä…czenie
+obiektÃ³w czytajÄ…cych, modyfikujÄ…cych i zwracajÄ…cych informacje o
+Å‚atach.
 
 %prep
 %setup -q -n %{pdir}-%{version}
