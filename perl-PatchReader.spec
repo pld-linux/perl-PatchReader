@@ -1,19 +1,20 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	PatchReader
+%include	/usr/lib/rpm/macros.perl
 Summary:	PatchReader - utilities to read and manipulate patches and CVS
 Summary(pl.UTF-8):	PatchReader - narzędzia do czytania i manipulowania łatami i CVS
 Name:		perl-PatchReader
 Version:	0.9.6
 Release:	1
+# CVSClient.pm MPL v1.1, the other files do not contain any copyright info
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/T/TM/TMANNERM/%{pdir}-%{version}.tar.gz
 # Source0-md5:	bd8da2388cd5ebc99a860b6d6bfeb8ad
-URL:		http://search.cpan.org/~tmannerm/PatchReader-0.9.6/
+URL:		http://search.cpan.org/dist/PatchReader/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -41,7 +42,6 @@ obiektów czytających, modyfikujących i zwracających informacje o
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
