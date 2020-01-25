@@ -3,7 +3,6 @@
 %bcond_without	tests	# do not perform "make test"
 
 %define		pdir	PatchReader
-%include	/usr/lib/rpm/macros.perl
 Summary:	PatchReader - utilities to read and manipulate patches and CVS
 Summary(pl.UTF-8):	PatchReader - narzędzia do czytania i manipulowania łatami i CVS
 Name:		perl-PatchReader
